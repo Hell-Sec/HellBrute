@@ -4,10 +4,11 @@
 
 # Info
 
-Template uses http://testing-ground.scraping.pro for testing the input field
+Template uses http://testing-ground.scraping.pro
+
 It uses a post request for login
-No rate limit bypass
-No proxy souport
+
+Simple Brute Force Method
 
 ----------------------------------------------------------------------------------
 
