@@ -23,6 +23,17 @@ Simple Brute Force Method
 
 ----------------------------------------------------------------------------------
 
+# Systems
+
+- Tested Systems:
+  - Parrot OS Home
+  - Kali Linux Mate
+  - Windows 10
+  - Windows 7
+  - Ubuntu 20.2
+
+----------------------------------------------------------------------------------
+
 # Example
 
 ![Picture](https://i.imgur.com/jGhDAeg.png)
