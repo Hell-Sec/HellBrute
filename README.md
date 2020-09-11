@@ -15,7 +15,8 @@ Simple Brute Force Method
 
 # Comming Soon
 
-- [x] Rate Bypass
-- [x] Proxy Support
-- [x] Add Threading
-- [ ] Release Main Code
+- [x] Release Main Code
+- [ ] Rate Bypass
+- [ ] Proxy Support
+- [ ] Add Threading
+- [ ] Tor End Node Support
