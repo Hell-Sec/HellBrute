@@ -20,3 +20,9 @@ Simple Brute Force Method
 - [ ] Proxy Support
 - [ ] Add Threading
 - [ ] Tor End Node Support
+
+----------------------------------------------------------------------------------
+
+# Example
+
+![Picture](https://i.imgur.com/jGhDAeg.png)
